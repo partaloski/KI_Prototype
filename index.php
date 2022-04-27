@@ -1,21 +1,3 @@
 <?php 
 	include_once("home.html");
-	include_once("certificates.html");
-	include_once("forum.html");
-	include_once("homework.html");
-	include_once("learn_more.html");
-	include_once("login.html");
-	include_once("register.html");
-	include_once("videos.html");
-	include_once("static/bootstrap.css");
-	include_once("static/bootstrap.css.map");
-	include_once("static/bootstrap.js");
-	include_once("static/bootstrap.min.css");
-	include_once("static/bootstrap.min.css.map");
-	include_once("static/style.css");
-	include_once("img/user.png");
-	include_once("img/carousel/one.jpg");
-	include_once("img/carousel/two.jpg");
-	include_once("img/carousel/three.jpg");
-	include_once("img/carousel/four.jpg");
- ?>
+?>
