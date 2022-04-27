@@ -1,0 +1,82 @@
+#navbar{
+    background-color: #ffc107;
+}
+
+#link{
+    font-family: "Century Gothic";
+    font-weight: bold;
+    font-size: 62%;
+    transition: 250ms;
+}
+
+#link:hover{
+    color: black !important;
+}
+
+.nav-item .nav-link{
+    transition: 250ms;
+    font-family: "Century Gothic";
+    font-size: 110%;
+}
+
+
+.nav-item .nav-link:hover{
+    color: black !important;
+    border-color: black !important;
+    border-radius: 45%;
+}
+
+.dropdown-menu .nav-item a{
+    transition: 300ms;
+    font-family: "Century Gothic";
+}
+
+.dropdown-menu .nav-item a:hover{
+    background-color: #ffc107;
+}
+
+#register-button, #login-button{
+    font-family: "Century Gothic" !important;
+    font-size: 110%;
+}
+
+#register-button{
+    background-color: rgb(128,128,128);
+    transition: 250ms;
+    border-color: transparent;
+}
+
+#register-button:hover{
+    background-color: rgb(222,222,222);
+    color:gray !important;
+}
+
+#login-button{
+    background-color: rgb(192,192,192);
+    transition: 250ms;
+    border-color: transparent;
+}
+
+#login-button:hover{
+    background-color: rgb(255,255,255);
+    color:gray !important;
+}
+
+.active-link{
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 10px;
+}
+
+.active-link-dropdown{
+    background-color: rgba(255,255,255,0.25);
+}
+
+.paragraph{
+    font-family: "Century Gothic";
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.smaller{
+    font-size: 0.6rem;
+}
