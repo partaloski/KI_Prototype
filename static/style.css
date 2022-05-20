@@ -10,20 +10,20 @@
 }
 
 #link:hover{
-    color: black !important;
+    text-shadow: black 0.15em 0.15em 0.2em !important;
 }
 
 .nav-item .nav-link{
     transition: 250ms;
     font-family: "Century Gothic";
     font-size: 110%;
+    margin-left: 1.5em !important;
+    background-color: #c7a100;
+    border-radius: 1em;
 }
 
-
-.nav-item .nav-link:hover{
-    color: black !important;
-    border-color: black !important;
-    border-radius: 45%;
+.nav-link:hover{
+    box-shadow: white 0em 0em 1em;
 }
 
 .dropdown-menu .nav-item a{
@@ -62,13 +62,14 @@
     color:gray !important;
 }
 
-.active-link{
-    background-color: rgba(255,255,255,0.15);
-    border-radius: 10px;
+.active-link a{
+    background-color: rgba(255,255,255,0.15) !important;
+    outline: 2px #eeeeee solid;
 }
 
 .active-link-dropdown{
     background-color: rgba(255,255,255,0.25);
+    outline: 2px solid orange;
 }
 
 .paragraph{
@@ -79,4 +80,27 @@
 
 .smaller{
     font-size: 0.8rem;
+}
+
+.text-bubble{
+    padding: 0.2em;
+    background-color: #ecb000f0;
+    border-radius: 0.1em;
+    transition: 200ms;
+    color: white !important;
+}
+
+.text-bubble:hover{
+    box-shadow: #ecb000f0 0em 0em 1em;
+}
+
+.outline-custom{
+    border-radius: 0.5em;
+    border: 3px solid lightgray;
+    transition: 300ms;
+}
+
+.outline-custom:hover{
+    border-color: #ffc107;
+    box-shadow: 0 0.5rem 1rem #ffc10744 !important
 }
